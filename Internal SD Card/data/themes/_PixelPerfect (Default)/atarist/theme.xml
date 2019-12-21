@@ -1,0 +1,20 @@
+<theme>
+	
+	<formatVersion>4</formatVersion>
+	<include>./../spare.xml</include>
+	
+	<view name="system, basic, detailed">
+
+		<image name="backgroundLogo" extra="true">
+			<path>./logo.png</path>
+		</image>
+		<image name="logo">
+			<path>./system.svg</path>
+		</image>
+		<text name="logoText" extra="true">
+			<text>Atari ST</text>
+		</text>
+
+	</view>
+	
+</theme>

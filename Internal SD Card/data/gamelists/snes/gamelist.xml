@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./Another World.smc</path>
+		<name>Another World</name>
+		<lastplayed>19720715T113648</lastplayed>
+	</game>
+	<game>
+		<path>./Mortal Kombat 3.smc</path>
+		<name>Mortal Kombat 3</name>
+		<lastplayed>19730724T220316</lastplayed>
+	</game>
+	<game>
+		<path>./Street Fighter Alpha 2.smc</path>
+		<name>Street Fighter Alpha 2</name>
+		<lastplayed>19730724T220556</lastplayed>
+	</game>
+	<game>
+		<path>./Super Mario Kart.smc</path>
+		<name>Super Mario Kart</name>
+		<lastplayed>19700120T093306</lastplayed>
+	</game>
+	<game>
+		<path>./Super Mario World 1.smc</path>
+		<name>Super Mario World 1</name>
+		<lastplayed>19730724T221541</lastplayed>
+	</game>
+	<game>
+		<path>./The Legend of Zelda - A Link to the Past.smc</path>
+		<name>The Legend of Zelda - A Link to the Past</name>
+		<lastplayed>19700120T094603</lastplayed>
+	</game>
+</gameList>

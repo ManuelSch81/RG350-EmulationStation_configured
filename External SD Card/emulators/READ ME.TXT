@@ -1,0 +1,19 @@
+Rename emulators:
+
+xmame.opk
+fba.opk
+race.opk
+stella.opk
+Handy.opk
+fceux.opk
+PocketSNES.opk
+mupen64plus.opk
+gambatte.opk
+regba.opk
+sms_sdl.opk
+PicoDrive.opk
+pcsx4all.opk
+oswan.opk
+unreal_speccy_portable.opk
+vice.opk
+openmsx.opk

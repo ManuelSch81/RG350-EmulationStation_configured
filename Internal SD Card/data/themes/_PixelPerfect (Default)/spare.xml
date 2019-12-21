@@ -1,0 +1,321 @@
+<!--
+theme name:		PixelPerfect
+version:		1.0
+author:			Matt "Melonhead" Sellers
+email:			
+website:		
+license:		creative commons CC-BY-NC-SA
+based on:		"Spare" by Matt Kennedy
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<feature supported="carousel">
+		<view name="system">
+			<carousel name="systemcarousel">
+				<color>00000000</color>
+				<logoSize>1 1</logoSize>
+				<size>1 1</size>
+				<pos>1 1</pos>
+				<logoScale>1</logoScale>
+			</carousel>
+
+			<text name="systemInfo">
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<pos>0 0.75</pos>
+			</text>
+		</view>
+	</feature>
+
+	<view name="system, basic, detailed">
+
+		<image name="background_color" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>000000</color>
+		</image>
+
+		<image name="background_pattern" extra="true">
+			<path>./_inc/images/bg_pattern.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>4 0.5</pos>
+			<size>1 1</size>
+			<color>000000</color>
+			<tile>false</tile>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>FFFFFF</textColor>
+			<iconColor>FFFFFF</iconColor>
+			<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<pos>1 1</pos>
+		</helpsystem>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./_inc/images/SystemBackground.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>FFFFFF</color>
+			<tile>false</tile>
+		</image>
+
+		<image name="backgroundLogo" extra="true">
+			<path>./_inc/images/logo.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>FFFFFF</color>
+			<tile>false</tile>
+		</image>
+
+		<text name="logoText" extra="true">
+				<text>MissingNo.</text>
+				<color>FFFFFF</color>
+				<alignment>center</alignment>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<size>1 0.45</size>
+				<pos>0 0</pos>
+		</text>
+
+	</view>
+
+	<view name="basic, detailed">
+
+		<image name="background" extra="true">
+			<path>./_inc/images/GamesBackground.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>FFFFFF</color>
+			<tile>false</tile>
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="backgroundLogo" extra="true">
+			<path>./_inc/images/SystemBackground.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>FFFFFF</color>
+			<tile>false</tile>
+		</image>
+
+		<text name="logoText" extra="true">
+				<text>MissingNo.</text>
+				<color>FFFFFF</color>
+				<alignment>center</alignment>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<size>1 0.225</size>
+				<pos>0 0</pos>
+		</text>
+
+			<image name="logo">
+				<origin>0.5 0.5</origin>
+				<pos>2 2</pos>
+				<maxSize>0.4 0.16</maxSize>
+			</image>
+
+		<image name="background_gamelist" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.01 0.19</pos>
+			<size>0.98 0.615</size>
+			<color>FFFFFFBB</color>
+		</image>
+
+			<textlist name="gamelist">
+				<selectorColor>000000</selectorColor>
+				<selectedColor>FFFFFF</selectedColor>
+				<primaryColor>000000</primaryColor>
+				<secondaryColor>888888</secondaryColor>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<pos>0.02 0.2</pos>
+				<size>0.96 0.595</size>
+				<fontSize>0.035</fontSize>
+			</textlist>
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="backgroundLogo" extra="true">
+			<path>./_inc/images/SystemBackground.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>FFFFFF</color>
+			<tile>false</tile>
+		</image>
+
+		<text name="logoText" extra="true">
+				<text>MissingNo.</text>
+				<color>FFFFFF</color>
+				<alignment>center</alignment>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<size>1 0.225</size>
+				<pos>0 0</pos>
+		</text>
+		
+		<image name="background_logo_gamelist" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.01 0.19</pos>
+			<size>0.44 0.615</size>
+			<color>FFFFFFBB</color>
+		</image>
+
+			<image name="logo">
+				<origin>0.5 0.5</origin>
+				<pos>2 2</pos>
+				<maxSize>0.33 0.19</maxSize>
+			</image>
+
+			<textlist name="gamelist">
+				<selectorColor>000000</selectorColor>
+				<selectedColor>FFFFFF</selectedColor>
+				<primaryColor>000000</primaryColor>
+				<secondaryColor>888888</secondaryColor>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<pos>0.02 0.20</pos>
+				<size>0.42 0.595</size>
+				<fontSize>0.035</fontSize>
+				<horizontalMargin>0.01</horizontalMargin>
+			</textlist>
+		
+		<image name="background_image" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.46 0.19</pos>
+			<size>0.53 0.345</size>
+			<color>FFFFFFBB</color>
+		</image>
+
+			<image name="md_image">
+				<origin>0.5 0.5</origin>
+				<pos>0.725 0.3625</pos>
+				<maxSize>0.335 0.335</maxSize>
+			</image>
+
+			<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+				<color>000000</color>
+				<forceUppercase>1</forceUppercase>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<size>0.24 0.01</size>
+			</text>
+
+			<text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
+				<color>000000</color>
+				<forceUppercase>0</forceUppercase>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<size>0.23 0.02</size>
+			</text>
+			<datetime name="md_releasedate, md_lastplayed">
+				<color>000000</color>
+				<forceUppercase>0</forceUppercase>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<size>0.23 0.02</size>
+			</datetime>
+
+				<text name="md_lbl_rating">
+					<pos>2 2</pos>
+				</text>
+				<rating name="md_rating">
+					<pos>2 2</pos>
+					<size>0.23 0.03</size>
+					<filledPath>./_inc/images/star_full.png</filledPath>
+					<unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+				</rating>
+
+				<text name="md_lbl_players">
+					<pos>2 2</pos>
+				</text>
+				<text name="md_players">
+					<pos>2 2</pos>
+				</text>
+
+				<text name="md_lbl_genre">
+					<pos>2 2</pos>
+				</text>
+				<text name="md_genre">
+					<pos>2 2</pos>
+				</text>
+
+				<text name="md_lbl_developer">
+					<pos>2 2</pos>
+				</text>
+				<text name="md_developer">
+					<pos>2 2</pos>
+				</text>
+
+				<text name="md_lbl_publisher">
+					<pos>2 2</pos>
+				</text>
+				<text name="md_publisher">
+					<pos>2 2</pos>
+				</text>
+
+				<text name="md_lbl_releasedate">
+					<pos>2 2</pos>
+				</text>
+				<datetime name="md_releasedate">
+					<pos>2 2</pos>
+				</datetime>
+
+				<text name="md_lbl_playcount">
+					<pos>2 2</pos>
+				</text>
+				<text name="md_playcount">
+					<pos>2 2</pos>
+				</text>
+
+				<text name="md_lbl_lastplayed">
+					<pos>2 2</pos>
+				</text>
+				<datetime name="md_lastplayed">
+					<pos>2 2</pos>
+				</datetime>
+		
+		<image name="background_description" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.46 0.555</pos>
+			<size>0.53 0.2525</size>
+			<color>FFFFFFBB</color>
+		</image>
+
+			<text name="md_description">
+				<pos>0.48 0.565</pos>
+				<size>0.51 0.2325</size>
+				<color>000000</color>
+				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+				<fontSize>0.035</fontSize>
+				<alignment>left</alignment>
+				<forceUppercase>0</forceUppercase>
+				<lineSpacing>1.6</lineSpacing>
+			</text>
+
+	</view>
+
+</theme>
