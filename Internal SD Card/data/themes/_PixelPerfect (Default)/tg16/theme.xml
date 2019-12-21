@@ -12,7 +12,7 @@
 			<path>./system.svg</path>
 		</image>
 		<text name="logoText" extra="true">
-			<text>Neogeo Pocket Color</text>
+			<text>Turbo Grafx 16</text>
 		</text>
 
 	</view>

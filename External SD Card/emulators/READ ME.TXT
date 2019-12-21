@@ -1,11 +1,16 @@
 Rename emulators:
 
+a5200.opk
+Coleco.opk
+Daphne.opk
+dosbox.opk
 xmame.opk
 fba.opk
 race.opk
 stella.opk
 Handy.opk
 fceux.opk
+ProSystem.opk
 PocketSNES.opk
 mupen64plus.opk
 gambatte.opk
@@ -17,3 +22,5 @@ oswan.opk
 unreal_speccy_portable.opk
 vice.opk
 openmsx.opk
+hugo.opk
+Temper.opk
