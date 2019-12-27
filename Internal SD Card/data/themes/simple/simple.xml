@@ -33,7 +33,7 @@ license:		creative commons CC-BY-NC-SA
 			<color>393a3b</color>
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
-			<fontSize>0.0</fontSize>
+			<fontSize>0.05</fontSize>
 			<size>0.14 0.04</size>
 		</text>
 

@@ -4,7 +4,7 @@ a5200.opk
 Coleco.opk
 Daphne.opk
 dosbox.opk
-xmame.opk
+mame4all.opk
 fba.opk
 race.opk
 stella.opk
