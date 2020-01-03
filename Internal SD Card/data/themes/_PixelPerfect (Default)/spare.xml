@@ -217,7 +217,7 @@ based on:		"Spare" by Matt Kennedy
 
 			<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
 				<color>000000</color>
-				<forceUppercase>1</forceUppercase>
+				<forceUppercase>0</forceUppercase>
 				<fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
 				<fontSize>0.035</fontSize>
 				<size>0.24 0.01</size>
