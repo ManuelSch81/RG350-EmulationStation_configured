@@ -8,5 +8,3 @@ Instructions....
 6. Use the "DinguxCmdr" to transfer "emulationstion.opk" into the apps folder.
 7. Then transfer the "data" contents (not the folder) into ".emulationstation".
 8. You're done! Just launch and you're good to go!
-
-DJ Emergency brah!
