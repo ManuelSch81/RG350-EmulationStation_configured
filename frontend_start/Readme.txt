@@ -6,8 +6,8 @@ Install this script:
 2. Ensure the file has executeable rights
    2.1 Connect to you RG350 using putty
    2.2 tpye: cd /media/data/local/sbin
-   2.3 type: chmod +y ./frontend_start
-   or
+   2.3 type: chmod +x ./frontend_start
+   or (alternative)
    2.a Connect to you RG350 using WinSCP
    2.b Navigate to the folder /media/data/local/sbin
    2.c Right-click on the fronend_start script file and choose Properties
