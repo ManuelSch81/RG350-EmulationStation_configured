@@ -1,0 +1,17 @@
+#!/bin/sh
+if [ -f /media/data/apps/emulationstation.opk ]; then
+    # start EmulationStation as default launcher
+    /usr/bin/opkrun /media/data/apps/emulationstation.opk
+
+    # choose your behavior when EmulationStation quits:
+    # (1) power device off after EmulationStation ended
+    # poweroff
+    # (2) jump back to the device menu
+    /usr/bin/gmenu2x
+
+
+elif [ -f /media/data/apps/gmenunx.opk ]; then
+    /usr/bin/opkrun -m default.gcw0.desktop /media/data/apps/gmenunx.opk
+else
+    /usr/bin/gmenu2x
+fi
