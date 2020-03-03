@@ -1,4 +1,8 @@
 Instructions:
+This guide runs for:
+- Windows
+- Linux
+- MacOS
 
 For CFW V1.5 or 1.7:
 --------------------
