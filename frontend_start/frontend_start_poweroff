@@ -5,7 +5,7 @@ if [ -f /media/data/apps/emulationstation.opk ]; then
 
     # choose your behavior when EmulationStation quits:
     # (1) power device off after EmulationStation ended
-    # poweroff
+    poweroff
     # (2) jump back to the device menu
     /usr/bin/gmenu2x
 
