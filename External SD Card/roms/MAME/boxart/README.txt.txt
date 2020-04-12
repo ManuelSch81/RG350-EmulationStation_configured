@@ -1,0 +1,1 @@
+Put your boxart/thumbnail images into this folder
