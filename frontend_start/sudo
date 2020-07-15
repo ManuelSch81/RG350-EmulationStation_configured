@@ -1,0 +1,16 @@
+case $1 in
+   shutdown)
+      shift
+      case $1 in
+         -h)
+            poweroff
+         ;;
+
+         -r)
+            reboot
+         ;;
+
+      esac
+   ;;
+esac
+
