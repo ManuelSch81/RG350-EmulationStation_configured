@@ -1,0 +1,9 @@
+<theme>
+	<formatVersion>3</formatVersion>
+	
+	<include>./_style/sharedStyle.xml</include>
+	
+	<include>./_style/systemView/carousel_A.xml</include>
+	<include>./_style/gamelistView/standard.xml</include>
+
+</theme>

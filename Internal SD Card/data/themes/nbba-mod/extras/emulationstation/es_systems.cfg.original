@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<systemList>
+  <system>
+    <name>ags</name>
+    <fullname>Adventure Game Studio</fullname>
+    <path>~/RetroPie/roms/ags</path>
+    <extension>.exe .EXE</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ ags %ROM%</command>
+    <platform>ags</platform>
+    <theme>ags</theme>
+  </system>
+  <system>
+    <name>amiga</name>
+    <fullname>Amiga</fullname>
+    <path>~/RetroPie/roms/amiga</path>
+    <extension>.sh .SH</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ amiga %ROM%</command>
+    <platform>amiga</platform>
+    <theme>amiga</theme>
+  </system>
+  <system>
+    <name>amstradcpc</name>
+    <fullname>Amstrad CPC</fullname>
+    <path>~/RetroPie/roms/amstradcpc</path>
+    <extension>.cpc .dsk .CPC .DSK</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ amstradcpc %ROM%</command>
+    <platform>amstradcpc</platform>
+    <theme>amstradcpc</theme>
+  </system>
+  <system>
+    <name>apple2</name>
+    <fullname>Apple II</fullname>
+    <path>~/RetroPie/roms/apple2</path>
+    <extension>.sh .SH</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ apple2 %ROM%</command>
+    <platform>apple2</platform>
+    <theme>apple2</theme>
+  </system>
+  <system>
+    <name>atari2600</name>
+    <fullname>Atari 2600</fullname>
+    <path>~/RetroPie/roms/atari2600</path>
+    <extension>.a26 .bin .rom .zip .gz .A26 .BIN .ROM .ZIP .GZ</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atari2600 %ROM%</command>
+    <platform>atari2600</platform>
+    <theme>atari2600</theme>
+  </system>
+  <system>
+    <name>atari5200</name>
+    <fullname>Atari 5200</fullname>
+    <path>~/RetroPie/roms/atari5200</path>
+    <extension>.a52 .bin .A52 .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atari5200 %ROM%</command>
+    <platform>atari5200</platform>
+    <theme>atari5200</theme>
+  </system>
+  <system>
+    <name>atari7800</name>
+    <fullname>Atari 7800 ProSystem</fullname>
+    <path>~/RetroPie/roms/atari7800</path>
+    <extension>.a78 .bin .zip .A78 .BIN .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atari7800 %ROM%</command>
+    <platform>atari7800</platform>
+    <theme>atari7800</theme>
+  </system>
+  <system>
+    <name>atari800</name>
+    <fullname>Atari 800</fullname>
+    <path>~/RetroPie/roms/atari800</path>
+    <extension>.bas .xex .atr .xfd .dcm .atr.gz .xfd.gz .BAS .XEX .ATR .XFD .DCM .ATR.GZ .XFD.GZ</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atari800 %ROM%</command>
+    <platform>atari800</platform>
+    <theme>atari800</theme>
+  </system>
+  <system>
+    <name>atarilynx</name>
+    <fullname>Atari Lynx</fullname>
+    <path>~/RetroPie/roms/atarilynx</path>
+    <extension>.lnx .zip .LNX .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atarilynx %ROM%</command>
+    <platform>atarilynx</platform>
+    <theme>atarilynx</theme>
+  </system>
+  <system>
+    <name>atarist</name>
+    <fullname>Atari ST/STE</fullname>
+    <path>~/RetroPie/roms/atarist</path>
+    <extension>.st .stx .img .rom .ST .STX .IMG .ROM</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atarist %ROM%</command>
+    <platform>atarist</platform>
+    <theme>atarist</theme>
+  </system>
+  <system>
+    <name>c64</name>
+    <fullname>Commodore 64</fullname>
+    <path>~/RetroPie/roms/c64</path>
+    <extension>.crt .d64 .g64 .t64 .tap .x64 .zip .CRT .D64 .G64 .T64 .TAP .X64 .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ c64 %ROM%</command>
+    <platform>c64</platform>
+    <theme>c64</theme>
+  </system>
+  <system>
+    <name>coco</name>
+    <fullname>TRS-80 Color Computer (CoCo)</fullname>
+    <path>~/RetroPie/roms/coco</path>
+    <extension>.cas .wav .bas .asc .dmk .jvc .os9 .dsk .vdk .rom .ccc .sna .CAS .WAV .BAS .ASC .DMK .JVC .OS9 .DSK .VDK .ROM .CCC .SNA</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ coco %ROM%</command>
+    <platform>coco</platform>
+    <theme>coco</theme>
+  </system>
+  <system>
+    <name>dragon32</name>
+    <fullname>Dragon 32</fullname>
+    <path>~/RetroPie/roms/dragon32</path>
+    <extension>.cas .wav .bas .asc .dmk .jvc .os9 .dsk .vdk .rom .ccc .sna .CAS .WAV .BAS .ASC .DMK .JVC .OS9 .DSK .VDK .ROM .CCC .SNA</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ dragon32 %ROM%</command>
+    <platform>dragon32</platform>
+    <theme>dragon32</theme>
+  </system>
+  <system>
+    <name>fba</name>
+    <fullname>Final Burn Alpha</fullname>
+    <path>~/RetroPie/roms/fba</path>
+    <extension>.fba .zip .FBA .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ fba %ROM%</command>
+    <platform>arcade</platform>
+    <theme>fba</theme>
+  </system>
+  <system>
+    <name>fds</name>
+    <fullname>Famicom Disk System</fullname>
+    <path>~/RetroPie/roms/fds</path>
+    <extension>.nes .fds .zip .NES .FDS .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ fds %ROM%</command>
+    <platform>fds</platform>
+    <theme>fds</theme>
+  </system>
+  <system>
+    <name>gamegear</name>
+    <fullname>Sega Gamegear</fullname>
+    <path>~/RetroPie/roms/gamegear</path>
+    <extension>.gg .zip .bin .GG .ZIP .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gamegear %ROM%</command>
+    <platform>gamegear</platform>
+    <theme>gamegear</theme>
+  </system>
+  <system>
+    <name>gb</name>
+    <fullname>Game Boy</fullname>
+    <path>~/RetroPie/roms/gb</path>
+    <extension>.gb .zip .GB .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gb %ROM%</command>
+    <platform>gb</platform>
+    <theme>gb</theme>
+  </system>
+  <system>
+    <name>gba</name>
+    <fullname>Game Boy Advance</fullname>
+    <path>~/RetroPie/roms/gba</path>
+    <extension>.gba .zip .GBA .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gba %ROM%</command>
+    <platform>gba</platform>
+    <theme>gba</theme>
+  </system>
+  <system>
+    <name>gbc</name>
+    <fullname>Game Boy Color</fullname>
+    <path>~/RetroPie/roms/gbc</path>
+    <extension>.gbc .zip .GBC .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gbc %ROM%</command>
+    <platform>gbc</platform>
+    <theme>gbc</theme>
+  </system>
+  <system>
+    <name>intellivision</name>
+    <fullname>Intellivision</fullname>
+    <path>~/RetroPie/roms/intellivision</path>
+    <extension>.int .bin .INT .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ intellivision %ROM%</command>
+    <platform>intellivision</platform>
+    <theme>intellivision</theme>
+  </system>
+  <system>
+    <name>macintosh</name>
+    <fullname>Apple Macintosh</fullname>
+    <path>~/RetroPie/roms/macintosh</path>
+    <extension>.txt .TXT</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ macintosh %ROM%</command>
+    <platform>macintosh</platform>
+    <theme>macintosh</theme>
+  </system>
+  <system>
+    <name>mame-advmame</name>
+    <fullname>Multiple Arcade Machine Emulator</fullname>
+    <path>~/RetroPie/roms/mame-advmame</path>
+    <extension>.zip .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mame-advmame %ROM%</command>
+    <platform>arcade</platform>
+    <theme>mame</theme>
+  </system>
+  <system>
+    <name>mame-mame4all</name>
+    <fullname>Multiple Arcade Machine Emulator</fullname>
+    <path>~/RetroPie/roms/mame-mame4all</path>
+    <extension>.zip .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mame-mame4all %ROM%</command>
+    <platform>arcade</platform>
+    <theme>mame</theme>
+  </system>
+  <system>
+    <name>mastersystem</name>
+    <fullname>Sega Master System</fullname>
+    <path>~/RetroPie/roms/mastersystem</path>
+    <extension>.sms .zip .bin .SMS .ZIP .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mastersystem %ROM%</command>
+    <platform>mastersystem</platform>
+    <theme>mastersystem</theme>
+  </system>
+  <system>
+    <name>megadrive</name>
+    <fullname>Sega Mega Drive / Genesis</fullname>
+    <path>~/RetroPie/roms/megadrive</path>
+    <extension>.smd .bin .gen .md .zip .sg .SMD .BIN .GEN .MD .ZIP .SG</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ megadrive %ROM%</command>
+    <platform>megadrive</platform>
+    <theme>megadrive</theme>
+  </system>
+  <system>
+    <name>msx</name>
+    <fullname>MSX / MSX2</fullname>
+    <path>~/RetroPie/roms/msx</path>
+    <extension>.rom .mx1 .mx2 .col .dsk .zip .ROM .MX1 .MX2 .COL .DSK .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ msx %ROM%</command>
+    <platform>msx</platform>
+    <theme>msx</theme>
+  </system>
+  <system>
+    <name>n64</name>
+    <fullname>Nintendo 64</fullname>
+    <path>~/RetroPie/roms/n64</path>
+    <extension>.z64 .n64 .v64 .zip .Z64 .N64 .V64 .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ n64 %ROM%</command>
+    <platform>n64</platform>
+    <theme>n64</theme>
+  </system>
+  <system>
+    <name>neogeo</name>
+    <fullname>Neo Geo</fullname>
+    <path>~/RetroPie/roms/neogeo</path>
+    <extension>.zip .fba .ZIP .FBA</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ neogeo %ROM%</command>
+    <platform>neogeo</platform>
+    <theme>neogeo</theme>
+  </system>
+  <system>
+    <name>nes</name>
+    <fullname>Nintendo Entertainment System</fullname>
+    <path>~/RetroPie/roms/nes</path>
+    <extension>.nes .zip .NES .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ nes %ROM%</command>
+    <platform>nes</platform>
+    <theme>nes</theme>
+  </system>
+  <system>
+    <name>ngp</name>
+    <fullname>Neo Geo Pocket (Color)</fullname>
+    <path>~/RetroPie/roms/ngp</path>
+    <extension>.ngp .ngc .NGP .NGC</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ ngp %ROM%</command>
+    <platform>ngp</platform>
+    <theme>ngp</theme>
+  </system>
+  <system>
+    <name>pc</name>
+    <fullname>PC (x86)</fullname>
+    <path>~/RetroPie/roms/pc</path>
+    <extension>.sh .bat .com .exe .SH .BAT .COM .EXE</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ pc %ROM%</command>
+    <platform>pc</platform>
+    <theme>pc</theme>
+  </system>
+  <system>
+    <name>pcengine</name>
+    <fullname>TurboGrafx 16 (PC Engine)</fullname>
+    <path>~/RetroPie/roms/pcengine</path>
+    <extension>.pce .zip .cue .PCE .ZIP .CUE</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ pcengine %ROM%</command>
+    <platform>pcengine</platform>
+    <theme>pcengine</theme>
+  </system>
+  <system>
+    <name>ports</name>
+    <fullname>Ports</fullname>
+    <path>~/RetroPie/roms/ports</path>
+    <extension>.sh .SH</extension>
+    <command>%ROM%</command>
+    <platform>pc</platform>
+    <theme>ports</theme>
+  </system>
+  <system>
+    <name>psx</name>
+    <fullname>PlayStation</fullname>
+    <path>~/RetroPie/roms/psx</path>
+    <extension>.bin .cue .cbn .img .iso .m3u .mdf .pbp .toc .z .znx .BIN .CUE .CBN .IMG .ISO .M3U .MDF .PBP .TOC .Z .ZNX</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ psx %ROM%</command>
+    <platform>psx</platform>
+    <theme>psx</theme>
+  </system>
+  <system>
+    <name>retropie</name>
+    <fullname>RetroPie</fullname>
+    <path>~/RetroPie/retropiemenu</path>
+    <extension>.rp .sh</extension>
+    <command>sudo /home/pi/RetroPie-Setup/retropie_packages.sh retropiemenu launch %ROM%</command>
+    <platform/>
+    <theme>retropie</theme>
+  </system>
+  <system>
+    <name>scummvm</name>
+    <fullname>ScummVM</fullname>
+    <path>~/RetroPie/roms/scummvm</path>
+    <extension>.sh .svm .SH .SVM</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ scummvm %ROM%</command>
+    <platform>scummvm</platform>
+    <theme>scummvm</theme>
+  </system>
+  <system>
+    <name>sega32x</name>
+    <fullname>Sega 32X</fullname>
+    <path>~/RetroPie/roms/sega32x</path>
+    <extension>.32x .smd .bin .md .zip .32X .SMD .BIN .MD .ZIP</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ sega32x %ROM%</command>
+    <platform>sega32x</platform>
+    <theme>sega32x</theme>
+  </system>
+  <system>
+    <name>segacd</name>
+    <fullname>Sega/Mega CD</fullname>
+    <path>~/RetroPie/roms/segacd</path>
+    <extension>.iso .cue .ISO .CUE</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ segacd %ROM%</command>
+    <platform>segacd</platform>
+    <theme>segacd</theme>
+  </system>
+  <system>
+    <name>sg-1000</name>
+    <fullname>Sega SG-1000</fullname>
+    <path>~/RetroPie/roms/sg-1000</path>
+    <extension>.sg .zip .bin .SG .ZIP .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ sg-1000 %ROM%</command>
+    <platform>sg-1000</platform>
+    <theme>sg-1000</theme>
+  </system>
+  <system>
+    <name>snes</name>
+    <fullname>Super Nintendo</fullname>
+    <path>~/RetroPie/roms/snes</path>
+    <extension>.smc .sfc .fig .swc .mgd .zip .bin .SMC .SFC .FIG .SWC .MGD .ZIP .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes %ROM%</command>
+    <platform>snes</platform>
+    <theme>snes</theme>
+  </system>
+  <system>
+    <name>vectrex</name>
+    <fullname>Vectrex</fullname>
+    <path>~/RetroPie/roms/vectrex</path>
+    <extension>.vec .gam .bin .VEC .GAM .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ vectrex %ROM%</command>
+    <platform>vectrex</platform>
+    <theme>vectrex</theme>
+  </system>
+  <system>
+    <name>videopac</name>
+    <fullname>Odyssey 2 / Videopac</fullname>
+    <path>~/RetroPie/roms/videopac</path>
+    <extension>.bin .BIN</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ videopac %ROM%</command>
+    <platform>videopac</platform>
+    <theme>videopac</theme>
+  </system>
+  <system>
+    <name>wonderswan</name>
+    <fullname>Wonderswan</fullname>
+    <path>~/RetroPie/roms/wonderswan</path>
+    <extension>.ws .wsc .WS .WSC</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ wonderswan %ROM%</command>
+    <platform>wonderswan</platform>
+    <theme>wonderswan</theme>
+  </system>
+  <system>
+    <name>zmachine</name>
+    <fullname>Z-machine</fullname>
+    <path>~/RetroPie/roms/zmachine</path>
+    <extension>.dat .DAT</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ zmachine %ROM%</command>
+    <platform>zmachine</platform>
+    <theme>zmachine</theme>
+  </system>
+  <system>
+    <name>zxspectrum</name>
+    <fullname>ZX Spectrum</fullname>
+    <path>~/RetroPie/roms/zxspectrum</path>
+    <extension>sna .szx .z80 .tap .tzx .gz .udi .mgt .img .trd .scl .dsk SNA .SZX .Z80 .TAP .TZX .GZ .UDI .MGT .IMG .TRD .SCL .DSK</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ zxspectrum %ROM%</command>
+    <platform>zxspectrum</platform>
+    <theme>zxspectrum</theme>
+  </system>
+</systemList>

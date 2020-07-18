@@ -1,0 +1,35 @@
+<theme>
+	<formatVersion>3</formatVersion>
+	
+	<view name="system">
+		<image name="background" extra="true">
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0 1</size>
+		</image>
+		
+		<image name="gc" extra="true">
+			<pos>0.5 0.19</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.75 0.35</maxSize>
+		</image>
+		
+		<image name="footer" extra="true">
+			<path>./../../_inc/images/bg.jpg</path>
+			<color>f3f3f3dd</color>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.05</size>
+		</image>
+		
+		<text name="year" extra="true">
+			<fontPath>./../../_inc/fonts/fontbold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>right</alignment>
+			<size>0.995 0.05</size>
+			<pos>0 0.895</pos>
+		</text>
+		
+	</view>
+	
+</theme>

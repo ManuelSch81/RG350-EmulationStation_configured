@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./audiosettings.rp</path>
+		<name> Configure Audio</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_audio.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20150722T140247</lastplayed>
+	</game>
+	<game>
+		<path>./dispmanx.rp</path>
+		<name> Configure Dispmanx SDL Driver</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_sdl_driver.png</image>
+	</game>
+	<game>
+		<path>./retroarchinput.rp</path>
+		<name> Configure RetroArch Input</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_input.png</image>
+	</game>
+	<game>
+		<path>./retronetplay.rp</path>
+		<name> Configure RetroArch NetPlay</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_netplay.png</image>
+	</game>
+	<game>
+		<path>./retroarch.rp</path>
+		<name> Configure RetroArch RGUI</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_retroarch.png</image>
+	</game>
+	<game>
+		<path>./splashscreen.rp</path>
+		<name> Configure Splash Screen</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_splash_screen.png</image>
+	</game>
+	<game>
+		<path>./wifi.rp</path>
+		<name> Configure Wireless Network</name>
+		<image>~/.emulationstation/downloaded_images/retropie/configure_wireless.png</image>
+	</game>
+	<game>
+		<path>./filemanager.rp</path>
+		<name> File Manager</name>
+		<image>~/.emulationstation/downloaded_images/retropie/file_manager.png</image>
+	</game>
+	<game>
+		<path>./showip.rp</path>
+		<name> IP Address</name>
+		<image>~/.emulationstation/downloaded_images/retropie/show_ip_address.png</image>
+	</game>
+	<game>
+		<path>./raspiconfig.rp</path>
+		<name> Raspberry Pi Setup</name>
+		<image>~/.emulationstation/downloaded_images/retropie/raspberry_pi_setup.png</image>
+	</game>
+	<game>
+		<path>./rpsetup.rp</path>
+		<name> RetroPie Setup</name>
+		<image>~/.emulationstation/downloaded_images/retropie/retropie_setup.png</image>
+	</game>
+	<game>
+		<path>./restart.sh</path>
+		<name>Restart</name>
+		<image>~/.emulationstation/downloaded_images/retropie/restart.png</image>
+	</game>
+	<game>
+		<path>./shutdown.sh</path>
+		<name>Shutdown</name>
+		<image>~/.emulationstation/downloaded_images/retropie/shutdown.png</image>
+	</game>
+</gameList>

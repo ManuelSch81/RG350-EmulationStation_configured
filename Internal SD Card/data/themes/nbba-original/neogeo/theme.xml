@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- NK Neo Geo - 4th gen, August 22nd 1990 -->
+<!-- Normal: a79354 -->
+<!-- Light : dad0b4 -->
+<!-- Dark  : 5b4d2d -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>5b4d2d</textColor>
+		<iconColor>5b4d2d</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>dad0b4</color>
+		<text>4th gen, August 22nd 1990</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>a79354</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>dad0b4</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>dad0b4</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>dad0b4</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>dad0b4</primaryColor>
+		<secondaryColor>dad0b4</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>dad0b4cc</color>
+	</image>
+	
+</view>
+	
+</theme>

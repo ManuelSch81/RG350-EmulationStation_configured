@@ -1,0 +1,54 @@
+<theme>
+
+	<formatVersion>3</formatVersion>
+	
+	<include>./standard.xml</include>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+			
+			<carousel name="systemcarousel">
+				<pos>-1.3 0.60</pos>
+				<size>3 0.25</size>
+				<color>FFFFFF60</color>
+				<logoScale>2.5</logoScale>
+				<logoSize>0.125 0.160</logoSize>
+				<maxLogoCount>1</maxLogoCount>
+			</carousel>
+			
+			<text name="systemInfo">
+				<pos>0 0.85</pos>
+				<size>1 0.050</size>
+				<backgroundColor>FFFFFF80</backgroundColor>
+				<color>000000</color>
+				<fontSize>0.03</fontSize>
+			</text>
+		
+			<image name="footer" extra="true">
+				<path>./../../_inc/images/bg.jpg</path>
+				<color>f3f3f3dd</color>
+				<pos>0 1</pos>
+				<origin>0 1</origin>
+				<size>1 0.05</size>
+			</image>
+
+			<image name="gc" extra="true">
+				<maxSize>0.95 0.55</maxSize>
+				<origin>0.5 0.5</origin>
+				<pos>0.75 0.62</pos>
+			</image>
+	
+			<text name="year" extra="true">
+				<fontPath>./../../_inc/fonts/fontbold.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<alignment>right</alignment>
+				<size>0.995 0.05</size>
+				<pos>0 0.945</pos>
+			</text>
+			
+		</view>
+		
+	</feature>
+	
+</theme>

@@ -1,0 +1,83 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Sony PlayStation Portable - December 12th 2004 -->
+<!-- Normal: 344fa2 -->
+<!-- Light : 8b9edb -->
+<!-- Dark  : 203064 -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>203064</textColor>
+		<iconColor>203064</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>8b9edb</color>
+		<text>7th gen, December 12th 2004</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>344fa2</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>8b9edb</color>
+	</text>
+	
+	<text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
+		<color>8b9edb</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>8b9edb</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>8b9edb</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>8b9edb</primaryColor>
+		<secondaryColor>8b9edb</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>8b9edbcc</color>
+	</image>
+	
+</view>
+	
+</theme>

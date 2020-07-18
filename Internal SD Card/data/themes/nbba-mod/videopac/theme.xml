@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Magnavox Odyssey 2 - 2nd gen, December 1978 -->
+<!-- Normal: f79233 -->
+<!-- Light : fccca2 -->
+<!-- Dark  : 7a3904 -->
+
+<view name="system, basic, detailed">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>7a3904</textColor>
+		<iconColor>7a3904</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>fccca2</color>
+		<text>2nd gen, December 1978</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed">
+	
+	<image name="background">
+		<color>f79233</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>fccca2</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>fccca2</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>fccca2</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>fccca2</primaryColor>
+		<secondaryColor>fccca2</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed">
+	
+	<image name="npi" extra="true">
+		<color>fccca2cc</color>
+	</image>
+	
+</view>
+	
+</theme>

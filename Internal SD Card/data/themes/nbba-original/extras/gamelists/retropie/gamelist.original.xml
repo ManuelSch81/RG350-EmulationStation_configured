@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./audiosettings.rp</path>
+		<name>Configure audio settings</name>
+	</game>
+	<game>
+		<path>./retroarch.rp</path>
+		<name>Configure RetroArch / Launch RetroArch RGUI</name>
+	</game>
+	<game>
+		<path>./retroarchinput.rp</path>
+		<name>Configure RetroArch keyboard/joystick</name>
+	</game>
+	<game>
+		<path>./retronetplay.rp</path>
+		<name>Configure RetroArch netplay</name>
+	</game>
+	<game>
+		<path>./splashscreen.rp</path>
+		<name>Configure Splashscreen</name>
+	</game>
+	<game>
+		<path>./wifi.rp</path>
+		<name>Configure Wifi</name>
+	</game>
+	<game>
+		<path>./configedit.rp</path>
+		<name>Edit RetroPie/RetroArch configurations</name>
+	</game>
+	<game>
+		<path>./dispmanx.rp</path>
+		<name>Enable/Disable dispmanx SDL driver for SDL1.x emulators</name>
+	</game>
+	<game>
+		<path>./filemanager.rp</path>
+		<name>File Manager</name>
+	</game>
+	<game>
+		<path>./raspiconfig.rp</path>
+		<name>Raspberry Pi configuration tool raspi-config</name>
+	</game>
+	<game>
+		<path>./rpsetup.rp</path>
+		<name>RetroPie-Setup</name>
+	</game>
+	<game>
+		<path>./showip.rp</path>
+		<name>Show IP address</name>
+	</game>
+</gameList>

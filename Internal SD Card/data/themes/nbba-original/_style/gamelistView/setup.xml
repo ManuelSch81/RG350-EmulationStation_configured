@@ -1,0 +1,116 @@
+<theme>
+
+	<formatVersion>3</formatVersion>
+	
+	<view name="basic, detailed, video">
+	
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.1</size>
+		</image>
+		
+		<image name="background">
+			<path>./../../_inc/images/bg.jpg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="filter" extra="true">
+			<path>./../../_inc/images/filter.png</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="footer" extra="true">
+			<path>./../../_inc/images/bg.jpg</path>
+			<color>f3f3f3</color>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.05</size>
+		</image>
+		
+		<image name="logo-h1" extra="true">
+			<path>./../../_inc/images/bg.jpg</path>
+			<color>f3f3f3</color>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.1</size>
+		</image>
+		
+		<image name="logo-h2" extra="true">
+			<path>./../../_inc/images/hl.svg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<maxSize>1 0.1</maxSize>
+		</image>
+		
+		<image name="logo-h3" extra="true">
+			<path>./../../_inc/images/hr.svg</path>
+			<pos>1 0</pos>
+			<origin>1 0</origin>
+			<maxSize>1 0.1</maxSize>
+		</image>
+		
+		<image name="logo">
+			<pos>0.5 0.05</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>1 0.09</maxSize>
+		</image>
+		
+		<textlist name="gamelist">
+			<fontPath>./../../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<horizontalMargin>0.01</horizontalMargin>
+			<scrollSound>./../../_inc/sounds/sound.wav</scrollSound>
+		</textlist>
+		
+		<text name="md_lbl_rating, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_publisher, md_playcount, md_description">
+			<fontPath>./../../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.01</fontSize>
+			<pos>-50 -50</pos>
+		</text>
+		
+		<rating name="md_rating">
+			<filledPath>./../../_inc/images/star_filled.svg</filledPath>
+			<unfilledPath>./../../_inc/images/star_unfilled.svg</unfilledPath>
+			<size>0.01 0.01</size>
+			<pos>-50 -50</pos>
+		</rating>
+		
+		<datetime name="md_lastplayed">
+			<fontPath>./../../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.01</fontSize>
+			<pos>-50 -50</pos>
+		</datetime>
+		
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
+			<fontPath>./../../_inc/fonts/fontbold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<size>0.111 0.015</size>
+			<alignment>right</alignment>
+		</text>
+		
+		<text name="md_developer">
+			<fontPath>./../../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<size>0.187 0.015</size>
+		</text>
+		
+		<text name="md_genre, md_players">
+			<fontPath>./../../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<size>0.187 0.015</size>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<fontPath>./../../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<size>0.2 0.015</size>
+		</datetime>
+		 
+	</view>
+
+</theme>

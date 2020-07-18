@@ -1,0 +1,67 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Sony PlayStation - 5th gen, September 9th 1995 -->
+<!-- Normal: 23b6a4 -->
+<!-- Light : 49dbc8 -->
+<!-- Dark  : 166e63 -->
+
+<view name="system, basic, detailed">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>166e63</textColor>
+		<iconColor>166e63</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>000000</color>
+		<text></text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed">
+	
+	<image name="background">
+		<color>23b6a4</color>
+	</image>
+		
+	<textlist name="gamelist">
+		<selectorColor>000000</selectorColor>
+		<selectedColor>49dbc8</selectedColor>
+		<primaryColor>000000</primaryColor>
+		<secondaryColor>000000</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed">
+	
+	<image name="npi" extra="true">
+		<color>49dbc8cc</color>
+	</image>
+	
+</view>
+	
+</theme>
