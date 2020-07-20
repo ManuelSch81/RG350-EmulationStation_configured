@@ -1,0 +1,54 @@
+<theme>
+
+	<themeVersion>3</themeVersion>
+	
+	<view name="video">
+	
+		<image name="npi" extra="true">
+			<path>./_inc/images/npi.png</path>
+			<pos>0.25 0.488</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.25 0.25</maxSize>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.49 0.105</pos>
+			<size>0.51 0.84</size>
+			<alignment>left</alignment>
+		</textlist>
+		
+		<text name="md_lbl_developer">
+			<pos>0.005 0.8755</pos>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<pos>0.005 0.9155</pos>
+		</text>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.29 0.8755</pos>
+		</text>
+		
+		<text name="md_lbl_players">
+			<pos>0.29 0.9155</pos>
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.117 0.8755</pos>
+		</text>
+		
+		<text name="md_genre">
+			<pos>0.117 0.9155</pos>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.401 0.8755</pos>
+		</datetime>
+		
+		<text name="md_players">
+			<pos>0.401 0.9155</pos>
+		</text>
+		
+	</view>
+
+</theme>

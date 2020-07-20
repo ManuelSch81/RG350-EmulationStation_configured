@@ -1,0 +1,241 @@
+<theme>
+<formatVersion>3</formatVersion>
+
+<view name="system, basic, detailed">
+
+	<helpsystem name="help">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.060</fontSize>
+		<pos>0.01 0.96</pos>
+	</helpsystem>
+
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<pos>0.5 0.5</pos>
+		<origin>0.5 0.5</origin>
+		<size>0 1</size>
+	</image>
+	
+	<image name="gc" extra="true">
+		<pos>0.5 0.5</pos>
+		<origin>0.5 0.5</origin>
+		<maxSize>1.50 0.70</maxSize>
+	</image>
+	
+	<text name="year" extra="true">
+		<fontPath>./main/fontbold.ttf</fontPath>
+		<fontSize>0.060</fontSize>
+		<alignment>right</alignment>
+		<size>0.995 0.05</size>
+		<pos>0 0.895</pos>
+	</text>
+	
+	<image name="footer" extra="false">
+		<path>./main/bg.jpg</path>
+		<color>f3f3f3dd</color>
+		<pos>1 1</pos>
+		<origin>0 1</origin>
+		<size>1 0.05</size>
+	</image>
+	
+</view>
+
+<view name="basic, detailed">
+	
+	<image name="header" extra="false">
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<size>1 0.1</size>
+	</image>
+	
+	<image name="background">
+		<path>./main/bg.jpg</path>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<size>1 1</size>
+	</image>
+	
+	<image name="filter" extra="true">
+		<path>./main/filter.png</path>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<size>1 1</size>
+	</image>
+	
+	<image name="footer" extra="false">
+		<path>./main/bg.jpg</path>
+		<color>f3f3f3</color>
+		<pos>0 1</pos>
+		<origin>0 1</origin>
+		<size>1 0.05</size>
+	</image>
+	
+	<image name="logo-h1" extra="false">
+		<path>./main/bg.jpg</path>
+		<color>f3f3f3</color>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<size>1 0.1</size>
+	</image>
+	
+	<image name="logo-h2" extra="false">
+		<path>./main/hl.svg</path>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<maxSize>1 0.1</maxSize>
+	</image>
+	
+	<image name="logo-h3" extra="false">
+		<path>./main/hr.svg</path>
+		<pos>1 0</pos>
+		<origin>1 0</origin>
+		<maxSize>1 0.1</maxSize>
+	</image>
+	
+	<image name="logo">
+		<pos>0.5 0.05</pos>
+		<origin>0.5 0.5</origin>
+		<maxSize>1 0.09</maxSize>
+	</image>
+	
+	<textlist name="gamelist">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.070</fontSize>
+		<horizontalMargin>0.008</horizontalMargin>
+		<scrollSound>./main/sound.wav</scrollSound>
+	</textlist>
+	
+	<text name="md_lbl_rating, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_publisher, md_playcount, md_description">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.01</fontSize>
+		<pos>-50 -50</pos>
+	</text>
+	
+	<rating name="md_rating">
+		<filledPath>./main/star_filled.svg</filledPath>
+		<unfilledPath>./main/star_unfilled.svg</unfilledPath>
+		<size>0.01 0.01</size>
+		<pos>-50 -50</pos>
+	</rating>
+	
+	<datetime name="md_lastplayed">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.01</fontSize>
+		<pos>-50 -50</pos>
+	</datetime>
+	
+	<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players">
+		<fontPath>./main/fontbold.ttf</fontPath>
+		<fontSize>0.035</fontSize>
+		<size>0.111 0.015</size>
+		<alignment>right</alignment>
+	</text>
+	
+	<text name="md_developer">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.035</fontSize>
+		<size>0.187 0.015</size>
+	</text>
+	
+	<text name="md_genre, md_players">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.035</fontSize>
+		<size>0.187 0.015</size>
+	</text>
+	
+	<datetime name="md_releasedate">
+		<fontPath>./main/font.ttf</fontPath>
+		<fontSize>0.035</fontSize>
+		<size>0.2 0.015</size>
+	</datetime>
+	 
+</view>
+
+<view name="basic">
+	
+	<textlist name="gamelist">
+		<pos>0.005 0.105</pos>
+		<size>0.99 0.84</size>
+		<alignment>center</alignment>
+	</textlist>
+	
+</view>
+
+<view name="detailed">
+	
+	<!-- Box Art -->
+	
+	<!--
+	<image name="measureba" extra="true">
+		<pos>0.25 0.488</pos>
+		<origin>0.5 0.5</origin>
+		<size>0.49 0.75</size>
+		<path>./main/bg.jpg</path>
+		<color>ff00ff</color>
+	</image>
+	-->
+	
+	<image name="md_image">
+		<pos>0.25 0.488</pos>
+		<origin>0.5 0.5</origin>
+		<maxSize>0.49 0.75</maxSize>
+	</image>
+	
+	
+	<image name="npi" extra="false">
+		<path>./main/npi.png</path>
+		<pos>0.25 0.488</pos>
+		<origin>0.5 0.5</origin>
+		<maxSize>0.25 0.25</maxSize>
+	</image>
+	
+	<!-- Gamelist -->
+	
+	<textlist name="gamelist">
+		<pos>0.49 0.105</pos>
+		<size>0.51 0.84</size>
+		<alignment>left</alignment>
+	</textlist>
+	
+	<!-- Labels -->
+	
+	<text name="md_lbl_developer">
+		<pos>1 1</pos>
+	</text>
+	
+	<text name="md_lbl_genre">
+		<pos>1 1</pos>
+	</text>
+	
+	<text name="md_lbl_releasedate">
+		<pos>1 1</pos>
+	</text>
+	
+	<text name="md_lbl_players">
+		<pos>1 1</pos>
+	</text>
+	
+	<!-- Values -->
+	
+	<text name="md_developer">
+		<pos>1 1</pos>
+	</text>
+	
+	<text name="md_genre">
+		<pos>1 1</pos>
+	</text>
+	
+	<datetime name="md_releasedate">
+		<pos>1 1</pos>
+	</datetime>
+	
+	<text name="md_players">
+		<pos>1 1</pos>
+	</text>
+	
+</view>
+
+</theme>

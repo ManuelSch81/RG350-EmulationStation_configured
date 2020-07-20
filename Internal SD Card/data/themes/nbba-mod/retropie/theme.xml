@@ -1,0 +1,101 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- RetroPie -->
+<!-- Normal: bc1142 -->
+<!-- Light : f36f94 -->
+<!-- Dark  : 5b0920 -->
+
+<view name="system, basic, detailed">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>5b0920</textColor>
+		<iconColor>5b0920</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>f36f94</color>
+		<text></text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed">
+	
+	<image name="background">
+		<color>bc1142</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>f36f94</color>
+		<fontSize>0.01</fontSize>
+		<pos>-50 -50</pos>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+		<size>0.01 0.01</size>
+		<pos>-50 -50</pos>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>f36f94</color>
+		<fontSize>0.01</fontSize>
+		<pos>-50 -50</pos>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>f36f94</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>f36f94</primaryColor>
+		<secondaryColor>f36f94</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed">
+	
+	<image name="npi" extra="true">
+		<color>f36f94cc</color>
+		<size>0.01 0.01</size>
+		<pos>-50 -50</pos>
+	</image>
+	
+	<image name="md_image">
+		<pos>0.715 0.5255</pos>
+		<origin>0.5 0.5</origin>
+		<maxSize>0.49 0.825</maxSize>
+	</image>
+	
+	<textlist name="gamelist">
+		<pos>0.005 0.113</pos>
+		<size>0.49 0.84</size>
+		<fontSize>0.04</fontSize>
+		<lineSpacing>1.5</lineSpacing>
+		<alignment>center</alignment>
+	</textlist>
+	
+</view>
+	
+</theme>

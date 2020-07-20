@@ -1,0 +1,32 @@
+<theme>
+	<formatVersion>3</formatVersion>
+
+	<view name="system, basic, detailed">
+
+		<helpsystem name="help">
+			<fontPath>./../_inc/fonts/font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.01 0.96</pos>
+		</helpsystem>
+
+	</view>
+		
+	<feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.25 0.488</pos>
+				<origin>0.5 0.5</origin>
+				<maxSize>0.49 0.75</maxSize>		
+				<delay>0.1</delay>
+				<default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+			</video>
+
+		</view>
+
+	</feature>
+	
+</theme>

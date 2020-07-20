@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Nintendo 64 - 5th gen, September 29th 1996 -->
+<!-- Normal: 069330 -->
+<!-- Light : 63f991 -->
+<!-- Dark  : 045c1f -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>045c1f</textColor>
+		<iconColor>045c1f</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>63f991</color>
+		<text>5th gen, September 29th 1996</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>069330</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>63f991</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>63f991</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>63f991</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>63f991</primaryColor>
+		<secondaryColor>63f991</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>63f991cc</color>
+	</image>
+	
+</view>
+	
+</theme>

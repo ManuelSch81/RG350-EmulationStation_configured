@@ -1,0 +1,80 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Nintendo Game Boy - 4th gen, July 31st 1989 -->
+<!-- Normal: 808080 -->
+<!-- Light : d4d4d4 -->
+<!-- Dark  : 424242 -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+		<color>4D4D4D</color>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>424242</textColor>
+		<iconColor>424242</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>d4d4d4</color>
+		<text>4th gen, July 31st 1989</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>808080</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>d4d4d4</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>d4d4d4</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>d4d4d4</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>d4d4d4</primaryColor>
+		<secondaryColor>d4d4d4</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>d4d4d4cc</color>
+	</image>
+	
+</view>
+	
+</theme>

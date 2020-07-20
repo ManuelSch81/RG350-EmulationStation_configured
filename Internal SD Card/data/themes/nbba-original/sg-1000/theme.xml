@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Sega SG-1000 - 3rd gen, July 15th 1983 -->
+<!-- Normal: ae4226 -->
+<!-- Light : e49482 -->
+<!-- Dark  : 491a11 -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>491a11</textColor>
+		<iconColor>491a11</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>e49482</color>
+		<text>3rd gen, July 15th 1983</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>ae4226</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>e49482</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>e49482</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>e49482</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>e49482</primaryColor>
+		<secondaryColor>e49482</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>e49482cc</color>
+	</image>
+	
+</view>
+	
+</theme>

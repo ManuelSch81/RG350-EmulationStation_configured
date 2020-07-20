@@ -1,0 +1,16 @@
+<theme>
+
+	<themeVersion>3</themeVersion>
+	
+	<view name="basic">
+	
+		<textlist name="gamelist">
+			<pos>0.005 0.105</pos>
+			<size>0.99 0.84</size>
+			<fontSize>0.04</fontSize>
+			<alignment>left</alignment>
+		</textlist>
+	
+	</view>
+
+</theme>

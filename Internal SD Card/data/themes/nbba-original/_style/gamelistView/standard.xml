@@ -1,0 +1,11 @@
+<theme>
+
+	<themeVersion>3</themeVersion>
+	
+	<include>./setup.xml</include>
+	
+	<include>./basic/a.xml</include>
+	<include>./detailed/a.xml</include>
+	<include>./video/a.xml</include>
+
+</theme>

@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Nintendo Entertainment System - 3rd gen, October 18th 1985 -->
+<!-- Normal: e42d25 -->
+<!-- Light : f08080 -->
+<!-- Dark  : 811411 -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>811411</textColor>
+		<iconColor>811411</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>f08080</color>
+		<text>3rd gen, October 18th 1985</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>e42d25</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>f08080</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>f08080</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>f08080</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>f08080</primaryColor>
+		<secondaryColor>f08080</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>f08080cc</color>
+	</image>
+	
+</view>
+	
+</theme>

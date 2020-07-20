@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Sega Master System - 3rd gen, June 20th 1986 -->
+<!-- Normal: a42b29 -->
+<!-- Light : d55555 -->
+<!-- Dark  : 3c1010 -->
+
+<view name="system, basic, detailed, video">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>3c1010</textColor>
+		<iconColor>3c1010</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>d55555</color>
+		<text>3rd gen, June 20th 1986</text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed, video">
+	
+	<image name="background">
+		<color>a42b29</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>d55555</color>
+	</text>
+		<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>d55555</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>d55555</selectorColor>
+		<selectedColor>000000</selectedColor>
+		<primaryColor>d55555</primaryColor>
+		<secondaryColor>d55555</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed, video">
+	
+	<image name="npi" extra="true">
+		<color>d55555cc</color>
+	</image>
+	
+</view>
+	
+</theme>

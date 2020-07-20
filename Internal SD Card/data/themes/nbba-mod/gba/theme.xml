@@ -1,0 +1,80 @@
+<theme>
+<formatVersion>3</formatVersion>
+<include>./../theme.xml</include>
+
+<!-- Nintendo Game Boy Advance - 6th gen, June 21st 2001 -->
+<!-- Normal: 42499a -->
+<!-- Light : 9ba0d5 -->
+<!-- Dark  : 2e346a -->
+
+<view name="system, basic, detailed">
+	
+	<image name="logo">
+		<path>./logo.svg</path>
+	</image>
+	
+	<helpsystem name="help">
+		<textColor>2e346a</textColor>
+		<iconColor>2e346a</iconColor>
+	</helpsystem>
+	
+</view>
+
+<view name="system">
+	
+	<image name="background" extra="true">
+		<path>./bg.jpg</path>
+	</image>
+	
+	<image name="gc" extra="true">
+		<path>./gc.png</path>
+	</image>
+	
+	<text name="year" extra="true">
+		<color>9ba0d5</color>
+		<text></text>
+	</text>
+	
+</view>
+
+<view name="basic, detailed">
+	
+	<image name="background">
+		<color>42499a</color>
+	</image>
+	
+	<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+		<color>9ba0d5</color>
+	</text>
+	
+	<rating name="md_rating">
+		<filledPath>./star_filled.svg</filledPath>
+		<unfilledPath>./star_unfilled.svg</unfilledPath>
+	</rating>
+	
+	<datetime name="md_releasedate, md_lastplayed">
+		<color>9ba0d5</color>
+	</datetime>
+	
+	<textlist name="gamelist">
+		<selectorColor>000000</selectorColor>
+		<selectedColor>9ba0d5</selectedColor>
+		<primaryColor>000000</primaryColor>
+		<secondaryColor>000000</secondaryColor>
+	</textlist>
+	
+</view>
+
+<view name="basic">
+	
+</view>
+
+<view name="detailed">
+	
+	<image name="npi" extra="true">
+		<color>9ba0d5cc</color>
+	</image>
+	
+</view>
+	
+</theme>
