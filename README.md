@@ -9,7 +9,7 @@ For this guide, you require a sd-card to use in the external sd-card slot of you
 For CFW V1.5 or 1.7:
 --------------------
 1. You need a sd-card that is formatted as FAT32 (If your sd-card is not formatted FAT32 use this program here to format it:
-   http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm
+   [http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm](http://ridgecrop.co.uk/index.htm?guiformat.htm)
    Note: All data of your sd-card will be erased when you format it!
 2. Name your sd-card "sdcard" and insert it to your PC.
 2. Drag the content of folder "External SD Card" to your sd.card (not the folder it's self).
